@@ -1,27 +1,28 @@
 /* fonts are linked here  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
+body {
     font-family: "Inter", sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
-.container{
+
+.container {
     background-image: url(../resources/background-image.png);
     background-repeat: no-repeat;
-    background-color:#F3F4F6;
+    background-color: #F3F4F6;
     height: 100%;
 }
 
-.header{
+.header {
     color: #fff;
     display: flex;
     gap: 16px;
@@ -29,14 +30,16 @@ body{
     align-items: center;
     padding-top: 50px;
 }
-.header h3{
-    font-size:24px ;
+
+.header h3 {
+    font-size: 24px;
     font-weight: 700;
     color: #fff;
 }
-.header p{
+
+.header p {
     color: #fff;
-    background-color:#1D1D1F ;
+    background-color: #1D1D1F;
     border-radius: 20px;
     padding: 4px 16px;
     font: 16px;
@@ -44,7 +47,7 @@ body{
     font-weight: 500;
 }
 
-.main{
+.main {
     padding: 50px;
     display: flex;
     align-items: start;
@@ -52,43 +55,40 @@ body{
 }
 
 
-.left{
+.left {
     background-color: #D2D5DA;
     width: 50%;
     border-radius: 16px 0px 0px 16px;
     height: 700px;
-    padding-bottom: 0px;
     overflow: hidden;
-    padding-bottom: 22px;
-    
+
 }
 
-.right{
+.right {
     background-color: #fff;
     width: 50%;
     border-radius: 0px 16px 16px 0px;
-    padding: 22px;
     padding-bottom: 0px;
     height: 700px;
     overflow: hidden;
 }
 
 
-.product{
+.product {
     display: flex;
     justify-content: space-between;
     padding: 22px;
     align-items: start;
 }
 
-.product-details{
+.product-details {
     display: flex;
     gap: 20px;
     align-items: start;
     justify-content: center;
 }
 
-.product-image{
+.product-image {
     width: 100px;
     height: 100px;
     overflow: hidden;
@@ -98,48 +98,51 @@ body{
     align-items: center;
     justify-content: center;
 }
-.product-image img{
+
+.product-image img {
     width: 80%;
     height: 80%;
     object-fit: contain;
 }
 
-hr{
+hr {
     width: 90%;
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-.text-title h3{
+.text-title h3 {
     font-size: 24px;
     font-weight: 600;
     text-transform: none;
 
 }
-.text-title p{
+
+.text-title p {
     text-transform: capitalize;
     padding-top: 10px;
     font-size: 16px;
 
 }
 
-.coupon-apply{
+.coupon-apply {
     display: flex;
     gap: 20px;
     padding: 22px;
     padding-top: 0px;
 }
-.coupon-apply textarea{
-     width: 70%;
-     padding: 5px;
-     resize: none;
-     font-size: 16px;
-     
-     border-radius: 10px;
+
+.coupon-apply textarea {
+    width: 70%;
+    padding: 5px;
+    resize: none;
+    font-size: 16px;
+
+    border-radius: 10px;
 }
 
-.coupon-apply button{
+.coupon-apply button {
     width: 130px;
     height: 50px;
     font-size: 16px;
@@ -154,51 +157,55 @@ hr{
 
 }
 
-.total-price{
+.total-price {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 22px;
     padding-top: 0px;
 }
-.price-text{
+
+.price-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-transform: capitalize;
 }
 
-.price-ammount{
+.price-ammount {
     text-transform: capitalize;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.price-text h4{
+.price-text h4 {
     color: #394150;
 }
-.price-ammount h4{
+
+.price-ammount h4 {
     color: 394150;
 }
 
-.contact-information h2{
+.contact-information h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 30px;
+    padding-top: 22px;
+    padding-left: 22px;
 }
 
-/* .form{
-    display: flex;
-    flex-direction: column;
-} */
-.form label{
-    font-size:14px ;
+.form{
+    padding: 22px;
+}
+.form label {
+    font-size: 14px;
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.form input{
+
+.form input {
     width: 100%;
     height: 50px;
     border-radius: 10px;
@@ -206,32 +213,33 @@ hr{
     margin-bottom: 16px;
     margin-top: 10px;
     background-color: #E5E7EB;
-    padding-left:10px ;
+    padding-left: 10px;
 }
 
-.name{
-    display: flex;
-    flex-direction: column;
-}
-.email{
+.name {
     display: flex;
     flex-direction: column;
 }
 
-.country-zip{
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.country-zip {
     display: flex;
     gap: 30px;
     align-items: start;
     justify-content: start;
 }
 
-.country{
+.country {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.country select{
+.country select {
     width: 100%;
     height: 50px;
     border-radius: 10px;
@@ -240,7 +248,7 @@ hr{
     border: none;
 }
 
-.form button{
+.form button {
     width: 100%;
     height: 46px;
     font-size: 16px;
@@ -252,3 +260,46 @@ hr{
     border-radius: 10px;
 }
 
+
+
+
+@media screen and (min-width:640px) and (max-width:1024px) {
+    .header h3 {
+        font-size: 18px;
+    }
+
+    .header p {
+        color: #fff;
+        background-color: #1D1D1F;
+        border-radius: 10px;
+        padding: 4px 14px;
+        font: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    ..product-image{
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+
+@media screen and (max-width:640px) {
+    .main{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 0px;
+
+    }
+    .left{
+        width: 100%;
+        border-radius:16px  16px 0px 0px;
+        padding: 0px;
+    }
+    .right{
+        width: 100%;
+        border-radius:0px 0px 16px 16px;
+        padding: 0px;
+    }
+}
